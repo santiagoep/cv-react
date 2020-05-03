@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development --host 192.168.0.29",
-    "deploy": "npm run build && node deploy-gh-pages.js"
+    "deploy": "npm run build && node deploy-gh-pages.js && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/santiagoep/cv-react/issues"
   },
-  "homepage": "https://www.santiagoep.com",
+  "homepage": "http://www.santiagoep.com",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",

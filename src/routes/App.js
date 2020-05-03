@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 /** Containers */
 import Home from '../containers/Home';
@@ -12,7 +12,7 @@ import Layout from '../components/Layout';
 import '../assets/styles/App.scss';
 
 const App = () => (
-    <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <Layout>
             <Switch>
                 <Route exact path="/" component={Home} />
@@ -20,7 +20,7 @@ const App = () => (
                 <Route component={NotFound} />
             </Switch>
         </Layout>
-    </BrowserRouter>
+    </HashRouter>
 )
 
 export default App;

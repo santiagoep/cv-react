@@ -8,6 +8,7 @@ import NotFound from '../containers/NotFound';
 /** Components */
 import Layout from '../components/Layout';
 
+import '../assets/styles/App.scss';
 
 const App = () => (
     <BrowserRouter>

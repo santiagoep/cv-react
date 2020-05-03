@@ -6,7 +6,6 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development --host 192.168.0.26",
-    "predeploy": "",
     "deploy": "npm run build && node deploy-gh-pages.js"
   },
   "repository": {

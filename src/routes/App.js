@@ -4,6 +4,7 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 /** Containers */
 import Home from '../containers/Home';
 import Experience from '../containers/Experience';
+import Technlogies from '../containers/Technologies';
 import NotFound from '../containers/NotFound';
 
 /** Components */
@@ -12,11 +13,12 @@ import Layout from '../components/Layout';
 import '../assets/styles/App.scss';
 
 const App = () => (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
         <Layout>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/experience" component={Experience} />
+                <Route exact path="/technologies" component={Technlogies} />
                 <Route component={NotFound} />
             </Switch>
         </Layout>

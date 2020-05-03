@@ -1,9 +1,20 @@
-.experience-list {
+.experience {
     width: 80%;
+}
+.experience__title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    color: #00a8cc;
+}
+.experience__list {
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    .experience-list {
+    .experience__list,
+    .experience__list {
         width: 100%;
     }
 }

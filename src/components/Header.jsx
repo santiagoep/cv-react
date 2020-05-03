@@ -18,9 +18,11 @@ const Header = ({ menuIsVisble, switchMenu }) => {
             <div className={`header__menu ${(menuIsVisble ? "header__menu--displayed" : "")}`} onClick={switchMenu}>
                 {menuIsVisble
                     ? <ul className="header__menu--list">
-                        <li>
-                            Menu
-                        </li>
+                        {window.innerWidth <= 768 &&
+                            <li>
+                                Menu
+                            </li>
+                        }
                         <li>
                             <Link to="/">
                                 About me

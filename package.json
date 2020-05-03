@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development --host 192.168.0.26"
+    "start": "webpack-dev-server --open --mode development --host 192.168.0.26",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/santiagoep/cv-react/issues"
   },
-  "homepage": "https://github.com/santiagoep/cv-react#readme",
+  "homepage": "https://www.santiagoep.com",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
@@ -41,6 +43,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.2",
     "file-loader": "^6.0.0",
+    "gh-pages": "^2.2.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.2.0",
     "mini-css-extract-plugin": "^0.9.0",

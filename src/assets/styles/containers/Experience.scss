@@ -1,0 +1,9 @@
+.experience-list {
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-list {
+        width: 100%;
+    }
+}

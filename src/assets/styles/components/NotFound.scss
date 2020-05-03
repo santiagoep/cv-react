@@ -1,0 +1,17 @@
+.page-not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-not-found img {
+    width: 50vw;
+    margin: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .page-not-found img {
+        width: 80vw;
+        margin: 50px;
+    }
+}

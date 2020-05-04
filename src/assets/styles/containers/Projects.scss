@@ -1,0 +1,10 @@
+.projects {
+    width: 100%;
+    height: fit-content;
+    overflow-x: scroll;
+    position: relative;
+}
+.projects__list {
+    display: flex;
+    width: max-content;
+}

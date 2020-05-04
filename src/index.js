@@ -48,7 +48,7 @@ const initialState = {
             startDate: "dec. of 2019",
             endDate: "At present",
             location: "Bogotá D.C., Colombia",
-            description: "Develop of chats and bots with NodeJS, Express, SocketIO, VueJS, Dialogflow and PostgreSQL. Integrations with differente platforms as official API of Whatsapp Business and Facebook Messenger",
+            description: "Develop of chats and bots with NodeJS, Express, SocketIO, VueJS, Dialogflow and PostgreSQL. Integrations with differente platforms as official API of Whatsapp Business and Facebook Messenger.",
             image: MontecheloImage
         },
         {
@@ -57,7 +57,7 @@ const initialState = {
             startDate: "mar. of 2017",
             endDate: "at present",
             location: "Remote",
-            description: "Independent develop of web apps, product photo and digital marketing",
+            description: "Independent develop of web apps, product photo and digital marketing.",
             image: BecoImage
         },
         {
@@ -66,7 +66,7 @@ const initialState = {
             startDate: "mar. of 2017",
             endDate: "nov. of 2019",
             location: "Bogotá D.C., Colombia",
-            description: "Develop of new fetures in ecommerce platform, landing pages and system for sales gestion. In the process, i was responsible of photograph, postproduction, promote and spread",
+            description: "Develop of new fetures in ecommerce platform, landing pages and system for sales gestion. In the process, i was responsible of photograph, postproduction, promote and spread.",
             image: LsjImage
         }
     ],

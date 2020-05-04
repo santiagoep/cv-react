@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+}
+.home__text {
+    width: 60%;
+    padding: 20px;
+}
+.home__text--title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #00a8cc;
+}
+.home__text--location {
+    color: #646363;
+}
+.home__text--description {
+    margin-top: 20px;
+    text-align: left;
+}
+.home__hero {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.home__hero img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+    .home {
+        display: block;
+    }
+    .home__text {
+        width: 100%;
+        padding: 10px;
+    }
+    .home__hero {
+        margin-top: 10px;
+        width: 100%;
+    }
+}

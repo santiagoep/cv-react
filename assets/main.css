@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap);
 .home{display:flex}.home__text{width:60%;padding:20px}.home__text--title{font-weight:bold;font-size:20px;color:#00a8cc}.home__text--location{color:#646363}.home__text--description{margin-top:20px;text-align:left}.home__hero{width:40%;display:flex;align-items:center}.home__hero img{max-width:100%;border-radius:10px}@media screen and (max-width: 768px){.home{display:block}.home__text{width:100%;padding:10px}.home__hero{margin-top:10px;width:100%}}
 
+.project-card{padding:20px;margin:15px 10px;box-shadow:1px solid black;border-radius:10px;-webkit-box-shadow:0px 0px 3px 0.5px rgba(0,0,0,0.2);-moz-box-shadow:0px 0px 3px 0.5px rgba(0,0,0,0.2);box-shadow:0px 0px 3px 0.5px rgba(0,0,0,0.2);text-align:center;width:500px;height:auto}.project-card__image{width:100%}.project-card__image img{width:100%;border-radius:10px;margin:5px}.project-card__title{font-size:20px;padding:10px;border-radius:10px;font-weight:bold;width:100%;background-color:#005082;color:white}.project-card__description{color:#646363}.project-card__tags{margin-top:10px}.project-card__tags ul{list-style:none;display:flex;justify-content:center;flex-wrap:wrap}.project-card__tags ul li{margin:10px;color:#00a8cc}.project-card__url{margin-top:10px}.project-card__url a{color:#00a8cc}@media screen and (max-width: 768px){.project-card{width:70vw}}
+
+.projects{width:100%;height:fit-content;overflow-x:scroll;position:relative}.projects__list{display:flex;width:max-content}
+
 .experience-card{padding:20px;margin:15px 0;box-shadow:1px solid black;border-radius:10px;-webkit-box-shadow:0px 0px 3px 0.5px rgba(0,0,0,0.2);-moz-box-shadow:0px 0px 3px 0.5px rgba(0,0,0,0.2);box-shadow:0px 0px 3px 0.5px rgba(0,0,0,0.2);display:flex;justify-content:center;width:100%}.experience-card__box1{width:60%}.experience-card__box2{width:40%;display:flex;align-items:center;justify-content:center}.experience-card__box2 img{width:100%}.experience-card__title{font-size:20px;font-weight:bold}.experience-card__company{color:#00a8cc}.experience-card__date{color:#646363}.experience-card__location{color:#646363}.experience-card__description{margin-top:10px}@media screen and (max-width: 768px){.experience-card{display:block}.experience-card__box1{width:100%}.experience-card__box2{padding-top:15px;width:100%}.experience-card__box2 img{width:100%}}
 
 .experience{width:80%}.experience__title{display:block;width:100%;text-align:center;margin:20px 0 30px 0;color:#00a8cc}.experience__list{width:100%}@media screen and (max-width: 768px){.experience,.experience__list,.experience__list{width:100%}}
@@ -17,5 +21,5 @@
 
 .container{padding:20px 10%;display:flex;justify-content:center}@media screen and (max-width: 768px){.container{padding-left:5%;padding-right:5%}}
 
-*{font-family:"Lato", sans-serif;user-select:none;padding:0;margin:0;box-sizing:border-box}html,body{padding:0;margin:0;position:relative;min-height:70vh}a{text-decoration:none;color:inherit}
+*{font-family:"Lato", sans-serif;user-select:none;padding:0;margin:0;box-sizing:border-box}html,body{padding:0;margin:0;position:relative;min-height:70vh;overflow-x:hidden}a{text-decoration:none;color:inherit}
 

@@ -5,7 +5,8 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from '../containers/Home';
 import Projects from '../containers/Projects';
 import Experience from '../containers/Experience';
-import Technlogies from '../containers/Technologies';
+import Technologies from '../containers/Technologies';
+import Education from '../containers/Education';
 import NotFound from '../containers/NotFound';
 
 /** Components */
@@ -20,7 +21,8 @@ const App = () => (
                 <Route exact path="/" component={Home} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/experience" component={Experience} />
-                <Route exact path="/technologies" component={Technlogies} />
+                <Route exact path="/technologies" component={Technologies} />
+                <Route exact path="/education" component={Education} />
                 <Route component={NotFound} />
             </Switch>
         </Layout>

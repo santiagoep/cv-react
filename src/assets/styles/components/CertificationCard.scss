@@ -1,0 +1,19 @@
+.certification-card {
+    display: flex;
+    margin: 10px 0;
+}
+.certification-card__image {
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.certification-card__image img {
+    height: 70px;
+}
+.certification-card__name {
+    font-weight: bold;
+}
+.certification-card__credential-id,
+.certification-card__date {
+    color: #646363;
+}

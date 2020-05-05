@@ -38,6 +38,11 @@ import LodemonImage from './assets/static/projects/lodemon.svg';
 import BothumanImage from './assets/static/projects/bothuman.png';
 import WidgetImage from './assets/static/projects/widget.png';
 import BotImage from './assets/static/projects/bot.svg';
+/** Education */
+import UnipanaImage from './assets/static/education/unipanamericana.png';
+import PlatziImage from './assets/static/education/platzi.png';
+import EDTeamImage from './assets/static/education/edteam.png';
+import CertMindImage from './assets/static/education/certmind.png';
 
 export default {
     menuIsVisble: window.innerWidth <= 768 ? false : true,
@@ -247,6 +252,163 @@ export default {
             description: "Chats y bots integrated with Whatsapp Web, Whatsapp API Official, Widget Web and Facebook Messenger",
             tags: ["Dialogflow", "NodeJS", "Express", "Python", "Flask", "Rest"],
             type: "Collaborative"
+        }
+    ],
+    education: [
+        {
+            name: "Unipanamericana",
+            image: UnipanaImage,
+            title: "Técnico en desarrollo de software",
+            startDate: "2017",
+            endDate: "2018"
+        },
+        {
+            name: "Unipanamericana",
+            image: UnipanaImage,
+            title: "Tecnlogía en diseño de software",
+            startDate: "2019",
+            endDate: "2020"
+        },
+        {
+            name: "Unipanamericana",
+            image: UnipanaImage,
+            title: "Ingeniería de Software",
+            startDate: "2020",
+            endDate: "2022",
+        },
+        {
+            name: "Platzi",
+            image: PlatziImage,
+            title: "Online education",
+            startDate: "2019",
+            endDate: ""
+        }
+    ],
+    courses: [
+        {
+            name: "Curso Básico de NodeJS",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso HTML y CSS",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Introducción a los negocios online",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Fundamentos de la gestón de proyectos",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de JQuery a Javascript",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de Prework: Buenas Prácticas y Entorno de Desarrollo",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de responsive design",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de WPO: Optimización de Carga de Sitios Web",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso profesional de Javascript",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de programación básica",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso practico de HTML y CSS",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso profesional de GIT y Github",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Fundamentos de Javascript",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Frontend developer",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de Google Suite",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso básico de VueJS",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Atención al cliente y soporte a usuarios",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de Bootstrap",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de CSS Grid Layout",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de desarrollo web online",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de marca personal",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Curso de finanzas personales",
+            institute: "Platzi",
+            image: PlatziImage,
+        },
+        {
+            name: "Desarrollo web con Django",
+            institute: "EDteam",
+            image: EDTeamImage,
+        }
+    ],
+    certifications: [
+        {
+            name: "Scrum Fundamentals",
+            company: "CertMind",
+            image: CertMindImage,
+            expeditionDate: "01/2020",
+            dueDate: "01/2025",
+            credentialId: "136122669"
         }
     ]
 }

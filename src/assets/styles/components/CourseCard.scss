@@ -1,0 +1,15 @@
+.course-card {
+    display: flex;
+    margin: 10px 0;
+}
+.course-card__image {
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.course-card__image img {
+    height: 70px;
+}
+.course-card__name {
+    font-weight: bold;
+}

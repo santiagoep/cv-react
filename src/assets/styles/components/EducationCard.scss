@@ -1,0 +1,18 @@
+.education-card {
+    display: flex;
+    margin: 10px 0;
+}
+.education-card__image {
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.education-card__image img {
+    height: 70px;
+}
+.education-card__title {
+    font-weight: bold;
+}
+.education-card__date {
+    color: #646363;
+}

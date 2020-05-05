@@ -13,6 +13,14 @@
 
 .technologies{display:flex;flex-wrap:wrap;width:100%;justify-content:center}.technologies__title{display:block;width:100%;text-align:center;margin:20px 0 30px 0;color:#00a8cc}@media screen and (max-width: 768px){.technologies{display:block}}
 
+.course-card{display:flex;margin:10px 0}.course-card__image{margin:0 10px;display:flex;align-items:flex-end}.course-card__image img{height:70px}.course-card__name{font-weight:bold}
+
+.certification-card{display:flex;margin:10px 0}.certification-card__image{margin:0 10px;display:flex;align-items:flex-end}.certification-card__image img{height:70px}.certification-card__name{font-weight:bold}.certification-card__credential-id,.certification-card__date{color:#646363}
+
+.education-card{display:flex;margin:10px 0}.education-card__image{margin:0 10px;display:flex;align-items:flex-end}.education-card__image img{height:70px}.education-card__title{font-weight:bold}.education-card__date{color:#646363}
+
+.education{width:100%;padding:0 20px;display:flex;flex-wrap:wrap;justify-content:space-around}.education h3{font-size:20px}.education ul{list-style:none}.education__education,.education__courses,.education__certifications{margin:30px 0;max-width:300px}@media screen and (max-width: 1100px){.education{justify-content:left}}
+
 .page-not-found{display:flex;justify-content:center;align-items:center}.page-not-found img{width:50vw;margin:50px}@media screen and (max-width: 768px){.page-not-found img{width:80vw;margin:50px}}
 
 .header__brand{width:100vw;margin:10px 0 5px 0;text-align:center;display:flex;justify-content:center}.header__brand--img{height:50px;width:50px}.header__brand--text{margin:0;display:flex;align-items:center}.header__menu{display:flex;justify-content:center;background-color:#ffa41b}.header__menu--list{list-style:none;display:flex;justify-content:center;width:100vw;margin:0;padding:17px}.header__menu--list li{font-size:20px;margin:0 10px;color:white}.header__menu--icon{display:none}@media screen and (max-width: 768px){.header__menu{position:fixed;z-index:2;bottom:20px;right:20px;width:60px;height:60px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center}.header__menu--displayed{position:fixed;top:0;bottom:0;left:0;right:0;width:100vw;height:100vh;border-radius:0;text-align:center;animation-name:fadeIn;animation-duration:1s}.header__menu--list{display:block}.header__menu--list li:first-child{font-size:30px !important;font-weight:bold;margin:0 0 30px 0}.header__menu--list li{margin:10px 0}.header__menu--icon{display:block}}@keyframes fadeIn{from{opacity:0}to{opacity:100}}

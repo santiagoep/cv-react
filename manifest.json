@@ -1,0 +1,175 @@
+{
+    "name": "santiagoep",
+    "short_name": "Mobile",
+    "theme_color": "#005082",
+    "background_color": "#fff",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+          "src": "/src/assets/static/brand/brand.jpg",
+          "sizes": "50x50",
+          "type": "image/jpg"
+      },
+      {
+          "src": "/src/assets/static/brand/favicon.ico",
+          "sizes": "48x48",
+          "type": "image/ico"
+      },
+      {
+          "src": "/src/assets/static/education/certmind.png",
+          "sizes": "70x70",
+          "type": "image/png"
+      },
+      {
+        "src": "/src/assets/static/education/edteam.png",
+        "sizes": "70x70",
+        "type": "image/png"
+      },
+      {
+        "src": "/src/assets/static/education/platzi.png",
+        "sizes": "70x70",
+        "type": "image/png"
+      },
+      {
+        "src": "/src/assets/static/education/unipanamericana.png",
+        "sizes": "70x70",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/css.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/django.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/express.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/facebookads.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/figma.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/finalcutpro.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/git.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/html.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/illustrator.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/java.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/jax.png",
+        "sizes": "98x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/js.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/jsf.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/laravel.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/mongo.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/mysql.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/node.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/photo.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/photoshop.png",
+        "sizes": "50x51",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/php.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/pixelmator.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/postgresql.png",
+        "sizes": "48x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/premiere.png",
+        "sizes": "51x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/python.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/react.png",
+        "sizes": "57x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/sql.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "src/assets/static/technologies/vue.png",
+        "sizes": "57x50",
+        "type": "image/png"
+      }
+    ]
+  }

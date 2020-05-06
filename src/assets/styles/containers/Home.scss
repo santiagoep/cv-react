@@ -1,5 +1,6 @@
 .home {
     display: flex;
+    margin-top: 20px;
 }
 .home__text {
     width: 60%;
@@ -29,6 +30,7 @@
 @media screen and (max-width: 768px) {
     .home {
         display: block;
+        margin-top: 0;
     }
     .home__text {
         width: 100%;
